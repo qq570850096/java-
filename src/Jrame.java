@@ -9,8 +9,6 @@ public class Jrame{
     int sceneHeigth=800;
     int N=10;
     
-    
-    
     Algolizer lizer=new Algolizer(sceneWidth, sceneHeigth, N);
     }
     
