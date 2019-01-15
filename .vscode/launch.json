@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Jrame",
+            "request": "launch",
+            "mainClass": "Jrame",
+            "projectName": "Alograph"
+        }
+    ]
+}
