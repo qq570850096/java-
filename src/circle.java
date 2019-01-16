@@ -8,8 +8,6 @@ public class circle{
         this.r=r;
         this.vx=vx;
         this.vy=vy;
-
-        
     }
     public int getR(){return r;}
 
