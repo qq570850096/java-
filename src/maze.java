@@ -64,9 +64,12 @@ public class maze extends JFrame{
             // //实心g2d.fill();
             // AlgoHelper.strokeCircle(g2d, canvasWidth/2, canvasHight/2, 200);
             AlgoHelper.setStrokeWidth(g2d, 1);
-            AlgoHelper.setColor(g2d, Color.red);
+            AlgoHelper.setColor(g2d, Color.blue);
             for(circle circle:circles){
-                AlgoHelper.strokeCircle(g2d, circle.x, circle.y, circle.getR());
+                if(!circle.isFilled)
+                    AlgoHelper.strokeCircle(g2d, circle.x, circle.y, circle.getR());
+                else
+                    AlgoHelper.fillCircle(g2d, circle.x, circle.y, circle.getR());
             }
 
         }

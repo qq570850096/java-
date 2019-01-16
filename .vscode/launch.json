@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Algolizer",
+            "request": "launch",
+            "mainClass": "Algolizer",
+            "projectName": "Alograph"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Jrame",
             "request": "launch",
             "mainClass": "Jrame",
